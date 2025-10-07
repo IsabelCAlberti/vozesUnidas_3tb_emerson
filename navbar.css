@@ -1,0 +1,90 @@
+/* ===== RESET BÁSICO ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BASE ===== */
+body {
+    font-family: 'Anonymous Pro', 'Source Code Pro', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #222;
+}
+
+/* ===== CABEÇALHO ===== */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-weight: bold;
+    border: 2px solid #ff4500;
+    padding: 10px 15px;
+    color: #ff4500;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    background-color: #ff4500;
+    color: white;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+    background: linear-gradient(38deg, #ff5100, #be3c00, #8a5905, rgb(168, 40, 1), #641400);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: end;
+    font-weight: bolder;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f3f3f3;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* ===== SEARCH ===== */
+.search-wrapper {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+}
+
+.search-box {
+    border: 1px solid #ccc;
+    outline: 0;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+
